@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#08090b" />
+  <meta name="description" content="iPTECH — Made in India CCTV and security technology. Something powerful is coming soon." />
+  <meta property="og:title" content="iPTECH — Coming Soon" />
+  <meta property="og:description" content="Built in India. Built to be proud of. Advanced CCTV solutions for a safer tomorrow." />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <title>iPTECH — Coming Soon</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preload" as="image" href="assets/hero-scene.webp" media="(min-width: 721px)" />
+  <link rel="preload" as="image" href="assets/hero-scene-mobile.webp" media="(max-width: 720px)" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="ambient ambient--saffron" aria-hidden="true"></div>
+    <div class="ambient ambient--green" aria-hidden="true"></div>
+    <div class="security-grid" aria-hidden="true"></div>
+
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#" aria-label="iPTECH home">
+        <img src="assets/iptech-logo.png" alt="iPTECH" />
+      </a>
+      <div class="made-india" aria-label="Made in India">
+        <span class="flag" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Made in India</span>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="scene" aria-hidden="true"></div>
+      <div class="scene-shade" aria-hidden="true"></div>
+
+      <section class="hero-copy" aria-labelledby="hero-title">
+        <div class="powered" data-reveal style="--delay:.08s">
+          <span>Powered by</span>
+          <img src="assets/re-logo.png" alt="RE" />
+          <strong>Cyber Secure Technology</strong>
+        </div>
+
+        <p class="eyebrow" data-reveal style="--delay:.14s">Indian-built security technology</p>
+
+        <h1 id="hero-title" data-reveal style="--delay:.2s">
+          <span>Built in <em class="india">India.</em></span>
+          <span>Built to be <em class="proud">proud of.</em></span>
+        </h1>
+
+        <p class="subhead" data-reveal style="--delay:.27s">Advanced CCTV solutions for a safer tomorrow.</p>
+
+        <div class="signup-card" data-reveal style="--delay:.34s">
+          <div class="signup-copy">
+            <span class="signup-kicker">Be the first to know.</span>
+            <span>Get product announcements and launch updates.</span>
+          </div>
+
+          <form id="signupForm" class="signup-form" novalidate>
+            <label class="sr-only" for="email">Email address</label>
+            <div class="field-wrap">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 5.75h16.5v12.5H3.75z"/><path d="m4.5 7 7.5 6 7.5-6"/></svg>
+              <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Enter your email address" required />
+            </div>
+            <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <button id="submitButton" type="submit">
+              <span>Notify me</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M14 7l5 5-5 5"/></svg>
+            </button>
+          </form>
+
+          <p id="formStatus" class="form-status" role="status" aria-live="polite">No spam. Only important iPTECH updates.</p>
+        </div>
+
+        <div class="coming-soon" data-reveal style="--delay:.41s">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span>Coming Soon</span>
+        </div>
+      </section>
+
+      <aside class="security-mark" aria-hidden="true" data-reveal style="--delay:.32s">
+        <div class="target-ring"></div>
+        <div class="target-ring target-ring--two"></div>
+        <div class="target-center"></div>
+        <span>Secure • Observe • Protect</span>
+      </aside>
+    </main>
+
+    <footer class="site-footer" data-reveal style="--delay:.48s">
+      <span>© <span id="year"></span> iPTECH. All rights reserved.</span>
+      <span class="footer-divider" aria-hidden="true"></span>
+      <a href="privacy.html">Privacy</a>
+    </footer>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
